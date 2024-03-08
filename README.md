@@ -25,3 +25,7 @@ For the sake of this experiment we are interested in streaming over Internet int
 | Kaolin       | 8311              | http://localhost:8311/docs |
 
 Quick concept demo video can be found [here](https://www.youtube.com/watch?v=SKfS-sZuoTw).
+
+Developer experiment (Non-secure) architecture is described below
+
+![Developer experiment (Non-secure) architecture](/docs/images/experiment-dev-arch-dark.png)
