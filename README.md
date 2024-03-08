@@ -8,12 +8,12 @@ Make everything as simple as possible, but not simpler.
 
 ## Getting Started
 
-| Technology                 | Devices           | Link         |
-|----------------------------|-------------------|--------------|
-| Omniverse Streaming Client | Windows and Linux | 5.3          |
-| WebSocket                  | Web browsers      | 1.34.0       |
-| WebRTC                     | Web browsers      | GPT-4/GPT-4V |
-| CloudXR                    | iOS and Android   | GPT-4/GPT4-V |
+| Technology                 | Devices           | Link                                                                                      |
+|----------------------------|-------------------|-------------------------------------------------------------------------------------------|
+| Omniverse Streaming Client | Windows and Linux | [Link](https://docs.omniverse.nvidia.com/streaming-client/latest/overview.html)           |
+| WebSocket                  | Web browsers      | [Link](https://docs.omniverse.nvidia.com/extensions/latest/ext_livestream/websocket.html) |
+| WebRTC                     | Web browsers      | [Link](https://docs.omniverse.nvidia.com/extensions/latest/ext_livestream/webrtc.html)    |
+| CloudXR                    | iOS and Android   | [Link](https://docs.omniverse.nvidia.com/extensions/latest/ext_cloud-xr.html)             |
 
 For the sake of this experiment we are interested in streaming over Internet into a web browser which limits our interest to WebSocket and WebRTC options. Please note that according to the documentation WebSocket extension has been deprecated in favor of WebRTC extension, that's why going forward we will focus on using WebRTC extension for streaming and also REST Web API endpoint(s) for interaction. Please find more information about Omniverse Streaming Extensions [here](https://docs.omniverse.nvidia.com/extensions/latest/ext_livestream/overview.html). In this light you might also be interested in checking out [this](https://github.com/alexanikiev/Azure-PixelStreamingCopilot-Sample) GitHub repo focusing on Azure Unreal Pixel Streaming.
 
